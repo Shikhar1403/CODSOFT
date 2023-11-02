@@ -5,7 +5,9 @@ class CodeSoft_TAsk_1 {
         System.out.println ("---------------------------Numbers Game--------------------------------");
         System.out.println ( "---------------Guess the number between 1 to 50---------------" );
         System.out.println ( "You have 3 attempt to guess right number" );
+        //Score Starts calculates from 0
         int score1=0;
+        // For Loop gives first 3 chances to user for guessing a right number
         for (int i = 1; i <= 3; i++)
         {
             Random r = new Random ();
@@ -42,6 +44,7 @@ class CodeSoft_TAsk_1 {
         Scanner sc = new Scanner ( System.in );
         String confirm = sc.nextLine ().toLowerCase ();
         int score2 = 0;
+        // Switch cases give additional 2 chances to user and displaying a user's Score
         switch (confirm)
         {
             case "yes":
