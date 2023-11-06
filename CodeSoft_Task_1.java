@@ -80,7 +80,7 @@ class CodeSoft_TAsk_1 {
         }
         if ( score2 == 0 )
         {
-            System.out.println ( "you lost the game . your score is :" + score2 + " Out of 5 attempts " );
+            System.out.println ( "you lost the game . your score is :" + score2 + );
         }
     }
 }
